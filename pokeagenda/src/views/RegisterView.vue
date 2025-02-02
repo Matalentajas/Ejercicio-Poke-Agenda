@@ -10,6 +10,7 @@
     </nav>
 
     <form @submit.prevent="registerUser" class="max-w-md mx-auto mt-40 p-6 bg-white rounded shadow-md">
+      <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Registrarse</h1>
       <div class="mb-4">
       <label for="email" class="block text-gray-700 font-bold mb-2">Correo Electrónico</label>
       <input type="email" id="email" v-model="email" placeholder="correoejemplo@ejem.com" required class="w-full px-3 py-2 border rounded">
@@ -55,7 +56,3 @@
   }
 
   </script>
-  
-  <style>
-  
-  </style>
